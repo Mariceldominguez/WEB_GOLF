@@ -33,13 +33,13 @@
   },
   "name": "react",
   "private": true,
-  "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "type-check": "tsc --noEmit --project tsconfig.app.json"
-  },
+"scripts": {
+  "build": "node ./node_modules/vite/bin/vite.js build",
+  "dev": "vite",
+  "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview",
+  "type-check": "tsc --noEmit --project tsconfig.app.json"
+},
   "type": "module",
   "version": "0.0.0"
 }
