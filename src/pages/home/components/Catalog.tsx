@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getProductos, type StrapiProducto } from "@/services/api";
 import ProductCard from "./ProductCard";
-import Container from "../container";
+import Container from "../Container";
 
 
 // deploy fix
