@@ -4,6 +4,9 @@ import { getProductos, type StrapiProducto } from "@/services/api";
 import ProductCard from "./ProductCard";
 import Container from "../container";
 
+
+// deploy fix
+
 const Catalog = () => {
   const navigate = useNavigate();
 
